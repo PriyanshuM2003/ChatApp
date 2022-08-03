@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.5.0"
+  },
+  "homepage": "https://PriyanshuM2003.github.io/ChatApp",
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is a chat app",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "Gohan",
+  "license": "ISC"
+}
